@@ -26,6 +26,38 @@ from app.main import outdated_products
             [
                 "duck"
             ]
+        ),
+        (
+            [
+                {
+                    "name": "apple",
+                    "expiration_date": datetime.date(2024, 8, 7),
+                    "price": 50
+                },
+                {
+                    "name": "banana",
+                    "expiration_date": datetime.date(2024, 9, 5),
+                    "price": 30
+                }
+            ],
+            [
+                "apple"
+            ]
+        ),
+        (
+            [
+                {
+                    "name": "bread",
+                    "expiration_date": datetime.date(2024, 8, 8),
+                    "price": 20
+                },
+                {
+                    "name": "milk",
+                    "expiration_date": datetime.date(2024, 8, 9),
+                    "price": 40
+                }
+            ],
+            []
         )
     ]
 )
